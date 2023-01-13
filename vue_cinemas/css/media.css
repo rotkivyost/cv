@@ -1,0 +1,127 @@
+@media (max-width: 1399.98px){
+    
+}
+@media (max-width: 1199.98px){
+    .films-wrap__item{
+        width: 230px;
+    }
+    .wrap-item {
+        width: 310px;
+    }
+    .series__movies-item_big,
+    .series__movies-wrap{
+        width: 470px;
+    }
+    .series__movies-item{
+        width: 220px;
+    }
+}
+@media (max-width: 991.98px){
+    .films-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .films-wrap__item{
+        margin: 0 20px 40px;
+    }
+    .films{
+        padding-bottom: 37px;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wrap-item{
+        margin: 0 20px 40px;
+    }
+    .series{
+        padding: 23px 0;
+    }
+    .series__movies{
+        flex-direction: column;
+        align-items: center;
+    }
+    .series__movies-item_big,
+    .series__movies-wrap{
+        width: 570px;
+    }
+    .series__movies-item{
+        width: 265px;
+        margin-bottom: 40px;
+    }
+    .series__movies-item_big{
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 767.98px){
+    .intro{
+        padding: 100px 0;
+        text-align: center;
+    }
+    .intro__title{
+        font-size: 55px;
+    }
+    .series__movies-item_big{
+        width: 90%;
+    }
+    .series__movies-wrap{
+        width: 90%;
+    }
+    .series__movies-item{
+        width: 46%;
+    }
+    .footer__text{
+        font-size: 14px;
+    }
+}
+@media (max-width: 575.98px){
+    .header-nav__container{
+        flex-direction: column;
+    }
+    .banner__logo{
+        width: 100%;
+    }
+    .header-nav__logo{
+        margin-bottom: 20px;
+    }
+    .header-menu__link_active::after{
+        bottom: -15px;
+    }
+    .intro__title{
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .watch_download{
+        margin: 20px 0 0;
+    }
+    .header-menu{
+        width: 300px;
+    }
+    .films-wrap__item{
+        width: 90%;
+        margin: 0 0 30px;
+    }
+    .wrap-item__title{
+        font-size: 16px;
+    }
+    .series__banner-title{
+        font-size: 27px;
+        line-height: 20px;
+    }
+    .series__banner{
+        padding: 35px 5px;
+    }
+    .series__movies-item_big{
+        height: 187px;   
+    }
+    .series__movies-item{
+        width: 100%;
+    }
+    .footer__container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__text{
+        margin-top: 20px;
+    }
+}
