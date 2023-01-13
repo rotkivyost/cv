@@ -1,0 +1,46 @@
+@media (min-width: 320px){
+    .navbar-nav{
+        align-items: center;
+    }
+    .list{
+        margin-bottom: 30px;
+    }
+    .btn-primary{
+        line-height: 0.5;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0.2rem !important;
+    }
+}
+@media (min-width: 576px){
+    .navbar-nav{
+        align-items: center;
+    }
+    .list{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px){
+    .list{
+        margin-bottom: 30px;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+}
+@media (min-width: 992px){
+    h2{
+        font-size: 1rem;
+    }
+    .list-group-item{
+        padding: 6px 16px;
+    }
+    .card{
+        padding: 10px !important;
+    }
+}
+@media (min-width: 1200px){
+    h2{
+        font-size: 1.5rem;
+    }
+}
