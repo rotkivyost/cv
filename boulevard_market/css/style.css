@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: #000;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.header-nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+}
+.header-nav_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 262px;
+}
+.menu-li {
+    margin-left: 30px;
+}
+.menu-link {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+}
+.header-nav_icon {
+    display: flex;
+    align-items: center;
+    max-width: 62px;
+}
+.search {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+.fa-search {
+    color: #fff;
+}
+.shop {
+    width: 17px;
+    height: 20px;
+}
+.fa-shopping-bag {
+    color: #fff;
+}
+.header-body {
+    background: url('../img/header_photo.jpg') no-repeat center center / cover;
+    padding: 204px 0 268px 0;
+}
+.header-body_text {
+    font-family: 'Prosto One';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.header-body_site{
+    display: flex;
+    justify-content: center;
+}
+.header-body_link {
+    padding: 13px 14px;
+    color: #171718;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 10px;
+}
+.header-body_icon {
+    margin-left: 11px;
+}
+.section {
+    padding: 30px 0 55px 0;
+}
+.box {
+    display: flex;
+}
+.box-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 33px 30px 0 0;
+}
+.block {
+    display: flex;
+    margin: 50px 0;
+}
+.block-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 150px 0 0 87px;
+    width: 540px;
+}
+.case {
+    display: flex;
+    align-items: center;
+}
+.case-text_left {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 333px;
+}
+.line-left {
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    margin-left: 13px;
+}
+.case-img {
+    margin: 0 14px;
+}
+.line-right {
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    margin-right: 11px;
+}
+.case-text_right {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 333px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 79px;
+}
+.card {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px 47px;
+    text-align: center;
+}
+.card-name {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.card-img {
+    margin: 10px 0;
+}
+.card-price {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.view {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #151515;
+    padding: 7px 57px;
+    display: inline-block;
+}
+.footer-nav {
+    padding: 81px 0;
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+.footer-nav_container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 232px;
+}
+.menu-footer-li:not(:last-child) {
+    margin-right: 30px;
+}
+.menu-footer-link {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+}
+.footer-visa {
+    display: flex;
+    align-items: center;
+}
+.visa {
+    margin-right: 29px;
+}
