@@ -1,0 +1,130 @@
+@media (max-width: 1399.98px){
+    .left-sidebar{
+        width: 100%;
+        height: 90px;
+        padding: 10px 15px;
+    }
+    .left-sidebar nav{
+        flex-direction: row;
+        align-items: center;
+    }
+    .container{
+        padding-top: 130px;
+    }
+    .menu{
+        display: flex;
+        margin: 0;
+    }
+    .menu li:not(:last-child),
+    .menu li{
+        margin: 0 15px;
+    }
+    .left-sidebar:hover{
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .left-sidebar:hover .menu{
+        margin: 0;
+    }
+    .left-sidebar:hover .menu a .fal{
+        margin-right: 39px;
+    }
+}
+@media (max-width: 1199.98px){
+    .card{
+        width: 215px;
+    }
+    .card:nth-child(3){
+        padding-top: 32px;
+    }
+    .card a{
+        padding: 7px 40px;
+    }
+    .article{
+        width: 670px;
+    }
+    .article-item{
+        font-size: 15px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 991.98px){
+    .services{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 300px;
+        margin: 15px;
+    }
+    .articles{
+        flex-wrap: wrap;
+    }
+    .article{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .articles h3{
+        text-align: center;
+    }
+    .news{
+        max-width: 100%;
+        width: 100%;
+    }
+    .menu{
+        order: 1;
+        margin: 0 auto;
+    }
+    .left-sidebar nav{
+        flex-wrap: wrap;
+    }
+    .left-sidebar{
+        height: 150px;
+    }
+    .container{
+        padding-top: 180px;
+    }
+}
+@media (max-width: 767.98px){
+    .menu li:not(:last-child), 
+    .menu li{
+        margin: 0 5px;
+    }
+    .menu a .fal{
+        margin-right: 10px;
+    }
+}
+@media (max-width: 575.98px){
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu li:not(:last-child), 
+    .menu li{
+        margin: 0 5px 10px;
+    }
+    .left-sidebar{
+        height: 160px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    footer h5{
+        font-size: 43px;
+    }
+    .footer-links{
+        width: 100%;
+        align-items: center;
+        margin-top: 15px;
+    }
+    header h1{
+        font-size: 36px;
+        line-height: 45px;
+    }
+    header {
+        padding-left: 30px;
+    }
+    header p{
+        max-width: 235px;
+    }
+}
